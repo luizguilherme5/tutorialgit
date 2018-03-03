@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Perfil do Tender</title>
+</head>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="base.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-6">
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <!-- Coloque aqui o link para sua foto -->
+                    <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO0AAADVCAMAAACMuod9AAAAh1BMVEXuAAD////4s7P97+/xWFj0e3v95+f3pqbwSEj6zc3zd3f4tbX6ycn709P+8/PvIiL++PjwRET84OD1kpL0hIT1iorwNTX3rKz2mZnxUVH5v7/1lJTzcHDvMDD0f3/96+v72dnyY2PuFBT2oKDvICDwOjr5vLzyaWnuDAzxU1PyX1/vKirvGRlXGXPBAAAH3UlEQVR4nOWd6VoqMQyGU0ERWWRRxOWwuozi/V/fYZUZpnuTdJbvp48P6QszbdKmCQhnzXud9ePd8nk42byvVqvf+38ft823h2mn13D/MCs1ep3pbPk8eU8AVpth8+2x9TIaeHwQuP179/EWdPpp3XgMQqNBd/yssJV8rXuOn+ZC22lqSY/61/L51qVavE5M1ppOX6817ejOBvWgGcYjPXq0tLaZWgNb0rb1D3BOd6G8TxsXc8OO3ada0XaND1ReDwHPc9/2Z03psY9D68O609qXdeZnz+J5MtIuPvxs7/TiAzv2t3dtep4MtP2lv+2tnm0er4w6QfZgGkK7DrO91ZUTa8NxMswrafvS3vwLht36Gw6wTwj24MuPNvyH3SuxXg1/cAyC+udV034j2badrG4SNIOPrrQjNNNgnDv2esE0OFRMzgpaVNvbpdAIi/Ta/GnkQIttG5YGWA/nyaCuNe0Dum1oamE9vSetZGufjNYh2rGXDpcCFqBlRUsCq3uYA3xFrfKOep6W5ove6loBi+JTSPVkpH0ls60Iinp0BnMr/SVtoFeul2yebFAahIWWdkFqGyROpNMehbuyMW+Wtk9rGn5zsNfEFu81tJ67FPa6DFC61AZhqaQlm47P+szS0hvMTMxpWvovequMv060tGc1l9IOOExnnqwFi8WJlBYrmDYoFWtj7I1YaC2hRQ7ylDrPkqRre1qNPC2XaeiwW/zO0RJEeQqdFl06/zin7gXtnM/0yTajxfcLWqvDSiQdQt0rRoun0P5ISxmI5LVfc99ZTWZoAw57PLRzqFhcmbOuUrRtXtO7uH7Ia/I+Rcv700LC5Ual1Puj5X1rYee6hp0deujuj5ZzQt6rQ7tjIdWJ9obd8gx/t9yo7pGW3/Q9u8XD1Ai8Tk1MHWi5gp/YGu1p32IPg0lPe9rYo+DS246WfbGNpWRHO409Cjb1t7RM21EFUHtLG3sMfGoJoD4MKZCuBSxij4FPQwF18S12EtCKPQRGDYAq6aGIGgHDuV5h1Iav2ENgVAfq41wArCE4/7lEGgPzdmNUXQPTGWoh9BVliyiWmrCKPQRG3QJefnvxNakVbZ3eWqjVWwvb57hOTzLUjLZOb24C5GmrBdIKmDMComoDeNf1iq8JsKcERNQtUKe6F0lNiJATEE1fgH5BscCaAVuScAE0BuY0uKhqAeol6oLrE3juThRDvTqd38INcCeTxpQA8pt0BdKWtj5Hms9b2vosQbMtbX0SL552uXC12avp1SnPEQY7WsY7V1G12Wd11sV3nNUqG/vzQFuTF7dxoK1HiLs53iuox4o7Pt0HqkVgsDjR1sFVTv7uekW4ecWu1/OtxRokTc3PtKz3nKPoNn3bOPZgyPWZpq38BkbmJnnVfeVptiZCxZfcQZa22tcLZhf1LsRv7BFRqnFJW+XQ4K8M7LkqT4W3pyQ1iKr7485EnlZUNnNqIKNlrqXCplSt6nQVPFWzlpJLyGn5615w6EVBG6HwBb2ehYq2iqFQQ01bvYkqWyD7osZu1W71fQgdbdWe5Yaetlpn15elwHOVwPnqOtIr19ElX+W9Qhf7cmz5v1RncznffUPSr6Aqy1Cufr+8F0U1Cge8ScikfUbYq+IR6EMGJu8hU4FQV9ohSE5b/hPduZRL0Q2p7Lvpiuapqk5X5fapPhVUyi5mZd6Uk3QGMtCW+MB+rGTS9OMra8G4BzWSrtdiOb0MVdMlE20p96m0zfD0XUPL9+vqO/8ZOsIS9r0i0UyPY+r2W65rfpoJyoq2VOk2ryYYc9/q8oS7SqfCgbY0ZWlV7qIbbUlCBG0LZwda0SjBub28BawPrRgUfSPy19xr3p626Ge7Q0sKW9pCXz7QtSH3oy2wF2lcZj1oCxvf27U8d6Ut6MJrNRl70IpG8UqNfSh6rSPQFi8lX3YggEfL0VjUQWbPOIy2UDHRwjzcQFqxiM14ktsr60krBsUoy6vbbUOkZWpba1DHPEwk2vgv76+k3zcZbeyQd+k3al/auEGRJMeAmDbe5mvi4iti0cY69MwlQfHQin6MOp/eT3EobQQ/0nMuxqEVn7ywjkEANq2Yc6bfWOwY09IypjRP7PYVaWm5HCvTiZaNEGjFiGNLo2seh1kYtIK+y92kjzJOHFrqBByf6E4mJFraMCF4Lj4Ji5Yw8TUJ8yjSwqOlSlr4xhshJq1YUMCqE9s8hElLEfQ6HHtYCJcWO1sQ8ZXdC5kW96zoFnlw6LRigHd4grXKnoVOi3fQGxS3y0VAi5RhpUiWDxIFrWhsglkT+TWIQJHQChHaz8M2bcRRRLSBjpV12oijqGiD9l9R/ae0yGjF3DvG9zrQshIdrbcfSTEZH0VJ61dtDtlZzIiU1mNL4979wN1BtLTOjga6Z5wVMa1j7Zsl8WioaUXf4TDBcOMjXOS0DhllU/NnBYqB1vbs5Ip+JBy0dhVDUA4DDGKhtdnAIfQpzuKhNZ+M+edSuIiJ1lT5lCSazYuLVhsTJThnWmax0Wp2I99JvcW0+GiVuBu+ITDSKh7mCeMIOGmlMYK0ngyVWGklrYiIttsU4qXN1R3gheWmvTjTZoZlpxWriLD8tKnwnnWC2oud9jxTMa6zJ/HTimPP9xWbB3VWBNpjYbLwrEV3RaA97LvyhHgXikErNizbMhJFoW3zrz0HRaEVP873DXH0H7PxbeH0h0YXAAAAAElFTkSuQmCC">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <!-- Coloque aqui seu nome -->
+                        <a target="_blank" href="http://scripteden.com/">Rômulo e João</a>
+                    </div>
+                    <!-- Coloque aqui sua profissão -->
+                    <div class="desc">Estudantes de Engenharia de Software em um relacionamento</div>
+                    <!-- Coloque aqui sua descrição -->
+                    <div class="bio">Esta dificil.</div>
+                </div>
+                <div class="bottom">
+                    <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-danger btn-sm" rel="publisher"
+                       href="https://plus.google.com/+ahmshahnuralam">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="btn btn-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="btn btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+	</div>
+</div>
