@@ -19,7 +19,7 @@ img#foto3{
 }
 
 header#cabecalho{
- background-color: grey;
+ background-color: green;
 }
 
 header#cabecalho h1{
@@ -37,12 +37,12 @@ header#cabecalho h2{
 p{
   text-align: justify;
   text-indent: 40px;
-  font-family: Arial;
+  font-family: Arial sans-serif;
   font-size: 14pt;
 }
 
 a{
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -54,4 +54,10 @@ footer#pe{
   border-top: 1px solid black;
   padding-top: 10px;
   text-align: center;
+}
+
+body{
+  background-image: url("extras/wallpape.jpeg");
+  background-size: cover;
+  color: white;
 }
