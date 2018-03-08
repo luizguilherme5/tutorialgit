@@ -1,1 +1,57 @@
-/* Ainda em branco */
+img#foto1{
+  height: 200px;
+  weight: 300px;
+  left: 20pt;
+  top: 80px;
+}
+img#foto2{
+  height: 200px;
+  weight: 300px;
+  margin-left: 20pt;
+  top: 80px;
+}
+
+img#foto3{
+  height: 200px;
+  weight: 300px;
+  margin-left: 20pt;
+  top: 80px;
+}
+
+header#cabecalho{
+ background-color: grey;
+}
+
+header#cabecalho h1{
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0px;
+
+}
+
+header#cabecalho h2{
+  color: #3b2222;
+  font-size: 12pt;
+  margin-top: 0px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 40px;
+  font-family: Arial;
+  font-size: 14pt;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer#pe{
+  border-top: 1px solid black;
+  padding-top: 10px;
+  text-align: center;
+}
