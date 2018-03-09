@@ -1,3 +1,52 @@
-#titulo{
-    text-align: center;
+body{
+  background-image: url('img/bodyds.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+.Menu{
+  width: 220px;
+  /*background-color: yellow;*/
+
+}
+.busca{
+  margin-left: 13px;
+  margin-top: 10px;
+}
+.corpo{
+  float: left;
+  width: 1290px;
+  height: 700px;
+  /*margin-right:12px;*/
+  margin-left: 220px;
+  padding-left: 10px;
+  margin-top: -148px;
+
+
+  /*background-color: blue;*/
+
+}
+.titulo{
+  letter-spacing: 12px;
+  margin-top: 0px;
+  color: #8B8682;
+}
+.linha{
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+.Menu a {
+  text-decoration: none;
+  color: #8B8970;
+}
+.Menu ul{
+  list-style-type: none;
+}
+.logobody{
+  margin-left: 360px;
+  margin-top: 200px;
+}
+.intro{
+  color: #FFEC8B;
 }
