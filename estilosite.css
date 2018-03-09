@@ -1,0 +1,140 @@
+body{
+  margin:0;
+  padding: 0;
+  background-image:url("otherFiles/floresta2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+
+}
+
+#wrapper{
+  margin: 30px auto;
+  width: 1000px;
+  height: 700px;
+  background-color: rgba(46, 59, 11,0.9);
+}
+
+#wrapperContato{
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+  background-color: rgba(46, 59, 11,0.9);
+}
+
+#header{
+  font-size: 35px;
+  font-family: 'Italianno', sans-serif;
+  padding-left: 230px;
+  position: relative;
+  top: 25px;
+  text-shadow: 1px 1px;
+}
+#mainnav{
+  background: black;
+  margin: auto;
+  width: 100%;
+}
+#mainnav ul{
+  margin: auto;
+  width: 400px;
+}
+#mainnav ul li{
+  display: inline;
+  font-size: 30px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#contents, #footer,#footer2,#footerContato{
+  margin-left: 40px;
+  width: 50%;
+}
+#contents, #contentscontato, #sidebar, #sidebar2{
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+#contents p{
+  text-indent: 50px;
+  text-align: justify;
+  position: relative;
+  top: 20px;
+  float: left;
+}
+
+#contents i{
+  margin-left: 380px;
+}
+
+#contents img{
+  padding-left: 15px;
+  position: relative;
+  top: 40px;
+}
+
+#contentscontato{
+
+  margin-left: 50px;
+  position: relative;
+  top: 40px;
+}
+
+#sidebar{
+  float: right;
+  margin-right: 40px;
+  position: relative;
+  top: -220px;
+}
+
+#sidebar2{
+  width: 40%;
+  float: right;
+  margin-right:100px;
+  position: relative;
+  top: -205px;
+}
+#sidebar2 p{
+  text-indent: 50px;
+  text-align: justify;
+}
+
+#footer{
+  margin: auto;
+  width: 400px;
+  position: relative;
+  font-size: 18px;
+  top: 10px;
+  clear: both;
+}
+
+#footer p,#footer2 p,#footerContato p{
+  margin: 0;
+}
+
+#espaco{
+  padding-left: 35px;
+}
+
+#footer2{
+  margin: auto;
+  width: 400px;
+  font-size: 18px;
+  position: relative;
+  top: 0px;
+  clear: both;
+}
+
+#footerContato{
+  margin: auto;
+  width: 400px;
+  font-size: 18px;
+  position: relative;
+  top: 100px;
+  clear: both;
+}
