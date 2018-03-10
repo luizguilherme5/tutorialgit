@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://images.alphacoders.com/713/713705.jpg")
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    margin: 0px 0px 0px 0px;
+}
+a{
+    color: currentColor;
+}
+ul{
+    text-align: left;
+    margin: 0px 1140px 0px 0px;
+    background-color: lightblue;
+    border-style: solid;
+    border-radius: 3px;
+}
+list{
+    border-left-style: solid;
+    border: slateblue;
+}
+#texto{
+    background: lightblue;
+    border-style: solid;
+}
+#topo{
+
+}
