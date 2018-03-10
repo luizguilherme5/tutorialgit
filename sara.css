@@ -1,0 +1,47 @@
+body{
+	background-color: #87CEEB;
+	background-image: url("https://i.pinimg.com/736x/7a/5d/0b/7a5d0beae7d89f2f5f0e577af9d56dbf--arielle-tattoo-little-mermaid-wallpaper.jpg");
+	font-family: Arial;
+}
+
+#menu{
+	background-color: #1E90FF;
+	float: right;
+	text-align: right;
+	width: 300px;
+	height: 73px;
+	font-family: Arial;
+}
+
+#header{
+	background-color: #00BFFF;
+	float: left;
+	text-align: center;
+	width: 1050px;
+	height: 73px;
+	font-family: Arial;
+}
+https://i.pinimg.com/736x/7a/5d/0b/7a5d0beae7d89f2f5f0e577af9d56dbf--arielle-tattoo-little-mermaid-wallpaper.jpg
+#content{
+	float: center;
+	padding: 10px; 
+}
+
+h1{
+	color: yellow;
+	font-size: 38px;
+}
+
+h2{
+	text-align: center;
+	color: orange;
+}
+
+a{
+	color: red;
+	font-size: 20px;
+}
+
+p{
+	color: blue;
+}
