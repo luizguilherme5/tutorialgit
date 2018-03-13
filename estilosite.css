@@ -13,7 +13,7 @@ body{
 #wrapper{
   margin: 30px auto;
   width: 1000px;
-  height: 1500px;
+  height: 1200px;
   background-color: rgba(46, 59, 11,0.9);
 }
 
@@ -70,7 +70,7 @@ a:hover{
 
 #contents #game{
   width: 900px;
-  height: 900px;
+  height: 680px;
 
   background: grey;
 }
@@ -78,7 +78,7 @@ a:hover{
 div#game > div{
   background: url(memoryGameFiles/lotrbg.jpg) no-repeat;
   background-size: 200px 200px;
-  border: white 1px solid;
+  border: black 2px solid;
   margin: 10px;
   float:left;
   width: 201px;
@@ -104,9 +104,9 @@ div#game > div{
 
 #sidebar{
   float: right;
-  margin-right: 40px;
+  margin-right: 60px;
   position: relative;
-  top: -1150px;
+  top: -900px;
 }
 
 #sidebar2{
@@ -127,7 +127,7 @@ div#game > div{
   width: 400px;
   position: relative;
   font-size: 18px;
-  top: -100px;
+  top: -165px;
   clear: both;
 }
 
