@@ -13,7 +13,7 @@ body{
 #wrapper{
   margin: 30px auto;
   width: 1000px;
-  height: 700px;
+  height: 1500px;
   background-color: rgba(46, 59, 11,0.9);
 }
 
@@ -68,6 +68,23 @@ a:hover{
   float: left;
 }
 
+#contents #game{
+  width: 900px;
+  height: 900px;
+
+  background: grey;
+}
+
+div#game > div{
+  background: url(memoryGameFiles/lotrbg.jpg) no-repeat;
+  background-size: 200px 200px;
+  border: white 1px solid;
+  margin: 10px;
+  float:left;
+  width: 201px;
+  height: 201px;
+}
+
 #contents i{
   margin-left: 380px;
 }
@@ -89,7 +106,7 @@ a:hover{
   float: right;
   margin-right: 40px;
   position: relative;
-  top: -220px;
+  top: -1150px;
 }
 
 #sidebar2{
@@ -104,23 +121,17 @@ a:hover{
   text-align: justify;
 }
 
+/*Footer site.html*/
 #footer{
   margin: auto;
   width: 400px;
   position: relative;
   font-size: 18px;
-  top: 10px;
+  top: -100px;
   clear: both;
 }
 
-#footer p,#footer2 p,#footerContato p{
-  margin: 0;
-}
-
-#espaco{
-  padding-left: 35px;
-}
-
+/*Footer sobre.html*/
 #footer2{
   margin: auto;
   width: 400px;
@@ -130,6 +141,7 @@ a:hover{
   clear: both;
 }
 
+/*Footer contato.html*/
 #footerContato{
   margin: auto;
   width: 400px;
@@ -137,4 +149,12 @@ a:hover{
   position: relative;
   top: 100px;
   clear: both;
+}
+
+#footer p,#footer2 p,#footerContato p{
+  margin: 0;
+}
+
+#espaco{
+  padding-left: 35px;
 }
