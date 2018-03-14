@@ -27,9 +27,6 @@ function newBoard(){
   for (var i = 0; i < memory_array.length; i++) {
     output += '<div id="tile_\''+i+'\'" onclick="memoryFlipTile(this,\''+memory_array[i]+'\')"></div>';
   }
-/*output += '<div id = "tile1" onclick="memoryFlipTile(this)"> </div>';
-  output += '<div id = "teste2"> memory_array[2]</div>';
-  output += '<div id = "teste3"> memory_array[2]</div>';*/
 
   document.getElementById('game').innerHTML = output;
 }
