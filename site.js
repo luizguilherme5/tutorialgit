@@ -5,10 +5,6 @@ var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
 
-function showVar (){
-  return memory_array[5];
-}
-
 Array.prototype.memory_tile_shuffle = function(){
     var i = this.length, j, temp;
     while(--i > 0){
@@ -46,6 +42,11 @@ function memoryFlipTile(aux,val){
       if (memory_values[0] == memory_values[1]) {
         tiles_flipped += 2;
 
+        var ex1 = document.getElementById(memory_tile_ids[0]);
+        var ex2 = document.getElementById(memory_tile_ids[1]);
+
+        ex1.onclick = "#";
+        ex2.onclick = "#";
 
         memory_values = [];
         memory_tile_ids = [];
@@ -53,6 +54,7 @@ function memoryFlipTile(aux,val){
         if (tiles_flipped == memory_array.length) {
           alert("Parabéns!");
           document.getElementById('game').innerHTML = "";
+          tiles_flipped = 0;
           newBoard();
         }
 
@@ -77,4 +79,8 @@ function flip2Back(){
 
   memory_values = [];
   memory_tile_ids = [];
+}
+
+function hideCards(){
+
 }
