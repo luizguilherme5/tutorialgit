@@ -13,7 +13,14 @@ body{
 #wrapper{
   margin: 30px auto;
   width: 1000px;
-  height: 1200px;
+  height: 1280px;
+  background-color: rgba(46, 59, 11,0.9);
+}
+
+#wrapper2{
+  margin: 30px auto;
+  width: 1000px;
+  height: 700px;
   background-color: rgba(46, 59, 11,0.9);
 }
 
@@ -69,17 +76,23 @@ a:hover{
 }
 
 #contents #game{
+  color: #ffcc00;
   width: 900px;
-  height: 680px;
-
-  background: grey;
+  height: 740px;
+  font-size: 30px;
+  font-family: 'Italianno', sans-serif;
+  text-align: center;
+  background: #006666;
 }
 
 div#game > div{
   background: url(memoryGameFiles/lotrbg.jpg) no-repeat;
   background-size: 200px 200px;
+  position: relative;
+  top: -30px;
   border: black 2px solid;
   margin: 10px;
+  text-shadow: 1px;
   float:left;
   width: 201px;
   height: 201px;
@@ -106,7 +119,7 @@ div#game > div{
   float: right;
   margin-right: 60px;
   position: relative;
-  top: -900px;
+  top: -1030px;
 }
 
 #sidebar2{
@@ -127,7 +140,7 @@ div#game > div{
   width: 400px;
   position: relative;
   font-size: 18px;
-  top: -165px;
+  top: -200px;
   clear: both;
 }
 

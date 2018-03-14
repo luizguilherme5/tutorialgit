@@ -21,7 +21,7 @@ Array.prototype.memory_tile_shuffle = function(){
 
 function newBoard(){
 
-  var output = '';
+  var output = '<h2> The LOTR Memory Game </h2>';
 
   memory_array.memory_tile_shuffle();
   for (var i = 0; i < memory_array.length; i++) {
